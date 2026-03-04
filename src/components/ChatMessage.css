@@ -1,0 +1,120 @@
+
+.chat-message-user,
+.chat-message-robot {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin: 6px 0;
+}
+
+
+.chat-message-user {
+  animation: fadeInRight 0.28s cubic-bezier(.4, 0, .2, 1) both;
+  justify-content: flex-end;
+}
+
+.chat-message-robot {
+  animation: fadeInLeft 0.28s cubic-bezier(.4, 0, .2, 1) both;
+  justify-content: flex-start;
+}
+
+.chat-message-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
+  transition: transform 0.3s cubic-bezier(.4, 0, .2, 1);
+}
+
+.chat-message-profile:hover {
+  transform: scale(1.1);
+}
+
+.chat-message-text {
+  max-width: 68%;
+  padding: 0.65rem 1rem;
+  border-radius: 18px;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  position: relative;
+  word-break: break-word;
+}
+
+/* User bubble */
+.chat-message-user .chat-message-text {
+  background: linear-gradient(135deg, #3a79ed 0%, #6d28d9 100%);
+  color: #ffffff;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 2px 5px rgba(124, 58, 237, 0.35);
+}
+
+/* Robot bubble */
+.chat-message-robot .chat-message-text {
+  background: linear-gradient(135deg, #069374d2 0%, #077e99eb 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e6f1f2;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 2px 5px #05a38132;
+}
+
+/* ---- Timestamp ---- */
+.time {
+  font-size: 0.62rem;
+  margin-top: 5px;
+  color: rgba(230, 241, 242, 0.55);
+  text-align: right;
+}
+
+.chat-message-robot .chat-message-text .time {
+  text-align: left;
+}
+
+/* ---- Typing dots inside robot bubble ---- */
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.2rem 0;
+}
+
+.typing-indicator span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #a78bfa;
+  animation: typingDot 1.2s ease-in-out infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .chat-message-text {
+    max-width: 80%;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .chat-message-text {
+    max-width: 85%;
+    font-size: 0.78rem;
+    padding: 0.6rem 0.85rem;
+  }
+
+  .chat-message-profile {
+    width: 26px;
+    height: 26px;
+  }
+
+  .time {
+    font-size: 0.55rem;
+  }
+}

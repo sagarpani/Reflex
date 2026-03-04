@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+   background: radial-gradient(
+    circle at 50% 40%,
+    #0b4f53,
+    #062f3a 60%,
+    #02191f 100%
+  );
+}
+
+@media (max-width: 768px) {
+  body {
+    align-items: flex-start; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  body {
+    align-items: flex-start;
+  }
+}
