@@ -16,10 +16,19 @@ body{
     #02191f 100%
   );
 }
+#root{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 768px) {
   body {
     align-items: flex-start; 
+  }
+  #root{
+    width: 100%;
   }
 }
 
