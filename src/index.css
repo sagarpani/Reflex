@@ -26,6 +26,7 @@ body{
 @media (max-width: 768px) {
   body {
     align-items: flex-start; 
+    height: 90vh;
   }
   #root{
     width: 100%;
@@ -36,5 +37,6 @@ body{
 @media (max-width: 480px) {
   body {
     align-items: flex-start;
+    height: 90vh;
   }
 }
