@@ -9,15 +9,15 @@ Snap shot: <img src="./public/snap.png">
 
 ## Features
 
-- Dynamic Chat Interface – Users can send messages, and the chatbot responds dynamically.
+- Dynamic Chat Interface - Users can send messages, and the chatbot responds dynamically.
 
-- Auto-Scrolling – The chat automatically scrolls to show the latest messages using a custom React hook.
+- Auto-Scrolling - The chat automatically scrolls to show the latest messages using a custom React hook.
 
-- Suggestion Buttons – Quick suggestions appear for users to click and send predefined queries.
+- Suggestion Buttons - Quick suggestions appear for users to click and send predefined queries.
 
-- Responsive Design – Optimized for both desktop and mobile views.
+- Responsive Design - Optimized for both desktop and mobile views.
 
-- Animated Elements – Smooth transitions and visual effects for a modern look.
+- Animated Elements - Smooth transitions and visual effects for a modern look.
 
 ## Technologies Used
 
