@@ -25,7 +25,7 @@ body{
 
 @media (max-width: 768px) {
   body {
-    align-items: flex-end; 
+    align-items: flex-start; 
   }
   #root{
     width: 100%;
@@ -35,6 +35,7 @@ body{
 
 @media (max-width: 480px) {
   body {
-    align-items: flex-end;
+    align-items: flex-start;
+    
   }
 }
