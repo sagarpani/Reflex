@@ -28,15 +28,15 @@ export default function APP() {
       // Casual
       "how are you": "I'm just a bunch of JavaScript, but functioning perfectly! 😄",
       "what's up": "Just chilling in the browser, waiting for your next message.",
-      "who are you": "I'm NexBot — your local AI chatbot powered by pure frontend logic. 🤖",
+      "who are you": "I'm Reflex - your local AI chatbot powered by pure frontend logic. 🤖",
       "tell me a joke": "Why do programmers prefer dark mode? Because light attracts bugs! 🐛",
 
       // Developer themed
       "react is hard": "React isn't hard. Managing state without losing your mind is. 🧠",
       "javascript is weird": "True. But that's what makes it so powerful! ⚡",
-      "explain closure": "A closure is when a function 'closes over' and remembers variables from its parent scope — even after that scope is gone. 🔒",
+      "explain closure": "A closure is when a function 'closes over' and remembers variables from its parent scope - even after that scope is gone. 🔒",
       "what is state": "State is dynamic data that, when changed, triggers a re-render of your component. 🔄",
-      "what is useffect": "useEffect lets you run side effects — like API calls, subscriptions, or DOM updates — after rendering. ✨",
+      "what is useffect": "useEffect lets you run side effects - like API calls, subscriptions, or DOM updates - after rendering. ✨",
 
       // Motivation
       "i feel stuck": "Getting stuck means you're learning. Every expert was once a beginner. Keep pushing! 💪",
